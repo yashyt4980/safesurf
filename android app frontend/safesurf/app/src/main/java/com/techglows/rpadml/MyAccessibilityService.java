@@ -41,7 +41,7 @@ public class MyAccessibilityService extends AccessibilityService {
 
     private static final String TAG = "RPADML_AccessServ";
     private String currentURL = "";
-    private String GoogleApiURL = "https://safebrowsing.googleapis.com/v4/threatMatches:find?key=AIzaSyDVhCTR3IWUfteUGVugMEepE235_50TlLY";
+    private String GoogleApiURL = "https://safebrowsing.googleapis.com/v4/threatMatches:find?key={}";
     private String ML_URL = "https://rpadml.herokuapp.com/api";
 
     public RequestQueue queue;
